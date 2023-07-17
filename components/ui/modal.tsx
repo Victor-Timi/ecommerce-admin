@@ -8,6 +8,8 @@ import {
   DialogTitle,
 } from "./dialog";
 
+import { Button } from "@/components/ui/button";
+
 interface ModalProps {
   title: string;
   description: string;
