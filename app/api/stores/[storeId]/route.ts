@@ -50,7 +50,7 @@ export async function DELETE(
     const { userId } = auth();
 
     if (!userId) {
-      return new NextResponse("unauthenticated", { status: 401 });
+      return new NextResponse("unauthenticated", { status: 403 });
     }
 
     if (!params.storeId) {
