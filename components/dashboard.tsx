@@ -24,7 +24,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
           axisLine={false}
           tickFormatter={(value) => `$${value}`}
         />
-        <Bar dataKey="total" fill="#3498db" radius={[4, 4, 0, 0]} />
+        <Bar dataKey="total" fill="#ADFA1D" radius={[4, 4, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
   );

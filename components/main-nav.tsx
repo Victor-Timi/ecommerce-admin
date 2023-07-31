@@ -54,7 +54,10 @@ export function MainNav({
   ];
   return (
     <nav
-      className={cn("flex items-center space-x-4 lg:space-x-6 px-4", className)}
+      className={cn(
+        "main-nav flex items-center space-x-4 lg:space-x-6 p-4 overflow-hidden overflow-x-auto",
+        className
+      )}
     >
       {routes.map((route) => (
         <Link
